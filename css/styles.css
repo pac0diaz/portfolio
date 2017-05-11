@@ -183,6 +183,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin: 2rem;
+  background-color: #000 !important;
 }
 *,
 :before,
@@ -216,4 +217,13 @@ h2 {
 }
 h3 {
   font-size: 1rem !important;
+}
+.splash {
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
